@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="container mt-4">
-    <h1 class="text-center mb-4">Construtor de Avatar</h1>
+    <h1 class="text-center mb-4">Construtor de Avatar!</h1>
     <div class="row">
       <!-- Coluna para opções -->
       <div class="col-md-6">
