@@ -6,7 +6,6 @@ function importImages(context: __WebpackModuleApi.RequireContext): AvatarPart {
   return context.keys().map((key) => context(key));
 }
 
-
 export const kim = {
   corpo: importImages(require.context('@/assets/kim/corpo', false, /\.png$/)),
   olhos: importImages(require.context('@/assets/kim/olhos', false, /\.png$/)),
