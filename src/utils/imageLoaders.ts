@@ -13,7 +13,7 @@ export const kim = {
   sobrancelhas: importImages(require.context('@/assets/kim/sobrancelhas', false, /\.png$/)),
   b_direito: importImages(require.context('@/assets/kim/b_direito', false, /\.png$/)),
   b_esquerdo: importImages(require.context('@/assets/kim/b_esquerdo', false, /\.png$/)),
-  blush: importImages(require.context('@/assets/kim/blush', false, /\.png$/)),
+  // blush: importImages(require.context('@/assets/kim/blush', false, /\.png$/)),
   objetos: importImages(require.context('@/assets/kim/objetos', false, /\.png$/)),
 };
 
