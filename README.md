@@ -1,6 +1,3 @@
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 # Avatar Builder para Mundo em Verdade
 
 ## Descrição do Projeto
@@ -68,53 +65,5 @@ Explore opções avançadas de configuração na [Referência de Configuração 
 Em caso de dúvidas ou problemas, abra uma issue no repositório do GitHub.
 
 ## Licença
-[Especificar tipo de licença, por exemplo: MIT License]
+MIT
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# Avatar Builder para Mundo em Verdade
-
-## Descrição do Projeto
-Este projeto é um criador de avatares personalizado para o canal do YouTube "Mundo em Verdade". A aplicação permite que usuários gerem avatares únicos para representar personagens do canal.
-
-## Recursos Principais
-- Geração de avatares personalizados
-- Interface intuitiva para criação de personagens
-- Compatível com o tema do canal Mundo em Verdade
-
-## Requisitos
-- Node.js
-- npm
-
-## Instalação
-```bash
-npm install
-```
-
-## Como Usar
-### Desenvolvimento
-Para rodar o projeto em modo de desenvolvimento:
-```bash
-npm run serve
-```
-
-### Produção
-Para compilar o projeto para produção:
-```bash
-npm run build
-```
-
-### Verificação de Código
-Para executar lint e corrigir arquivos:
-```bash
-npm run lint
-```
-
-## Personalização
-Consulte a [Referência de Configuração do Vue CLI](https://cli.vuejs.org/config/) para opções avançadas de configuração.
-
-## Contribuição
-Contribuições para melhorar o criador de avatares são bem-vindas.
-
-## Licença
-[Adicionar informações de licença]
