@@ -4,6 +4,11 @@
 Este projeto é um criador de avatares personalizado para o canal do YouTube "Mundo em Verdade". A aplicação permite que usuários gerem avatares únicos para representar personagens do canal, oferecendo uma experiência criativa e interativa.
 
 ## Recursos Principais
+## Demonstração
+
+Você pode testar a aplicação diretamente pelo link: [https://avatar.mundoemverade.com.br/](https://avatar.mundoemverade.com.br/)
+
+
 - Geração de avatares personalizados com múltiplas opções de customização
 - Interface intuitiva e amigável para criação de personagens
 - Suporte a diferentes estilos e características visuais
@@ -66,4 +71,3 @@ Em caso de dúvidas ou problemas, abra uma issue no repositório do GitHub.
 
 ## Licença
 MIT
-
