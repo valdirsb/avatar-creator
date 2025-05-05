@@ -67,7 +67,7 @@
 
 <script lang="ts">
 import { ref, reactive, computed, watch } from 'vue';
-import { zad, liry, camila, kim, nova_liry, nova_zad, nova_camila, liry3 } from './utils/imageLoaders';
+import { zad, liry, camila, kim, nova_liry, nova_zad, nova_camila, liry3, zad3, camila3 } from './utils/imageLoaders';
 import AvatarOptions from "./components/AvatarOptions.vue";
 import AvatarButtons from "./components/AvatarButtons.vue";
 import AvatarCanvas from "./components/AvatarCanvas.vue";
@@ -86,10 +86,12 @@ export default {
       { nome: 'nova_zad', label: 'Nova Zad', data: nova_zad },
       { nome: 'nova_camila', label: 'Nova Camila', data: nova_camila },
       { nome: 'liry3', label: 'Liry 3', data: liry3 },
+      { nome: 'zad3', label: 'Zad 3', data: zad3 },
+      { nome: 'camila3', label: 'Camila 3', data: camila3 },
     ];
 
     const personagemSelecionado = ref('liry');
-    const personagem = computed(() =>
+    const personagem = computed<Record<string, any>>(() =>
       personagens.find(p => p.nome === personagemSelecionado.value)?.data || {}
     );
 

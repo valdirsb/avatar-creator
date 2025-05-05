@@ -94,3 +94,26 @@ export const liry3 = {
   blush: importImages(require.context('@/assets/liry_versao_3/blush', false, /\.png$/)),
   objetos: importImages(require.context('@/assets/liry_versao_3/objetos', false, /\.png$/)),
 };
+
+export const zad3 = {
+  corpo: importImages(require.context('@/assets/zad_versao_3/corpo', false, /\.png$/)),
+  olhos: importImages(require.context('@/assets/zad_versao_3/olhos', false, /\.png$/)),
+  boca: importImages(require.context('@/assets/zad_versao_3/boca', false, /\.png$/)),
+  sobrancelhas: importImages(require.context('@/assets/zad_versao_3/sobrancelhas', false, /\.png$/)),
+  b_direito: importImages(require.context('@/assets/zad_versao_3/b_direito', false, /\.png$/)),
+  b_esquerdo: importImages(require.context('@/assets/zad_versao_3/b_esquerdo', false, /\.png$/)),
+  blush: importImages(require.context('@/assets/zad_versao_3/blush', false, /\.png$/)),
+  objetos: importImages(require.context('@/assets/zad_versao_3/objetos', false, /\.png$/)),
+};
+
+export const camila3 = {
+  corpo: importImages(require.context('@/assets/camila_versao_3/corpo', false, /\.png$/)),
+  cabelo: importImages(require.context('@/assets/camila_versao_3/cabelo', false, /\.png$/)),
+  olhos: importImages(require.context('@/assets/camila_versao_3/olhos', false, /\.png$/)),
+  boca: importImages(require.context('@/assets/camila_versao_3/boca', false, /\.png$/)),
+  sobrancelhas: importImages(require.context('@/assets/camila_versao_3/sobrancelhas', false, /\.png$/)),
+  b_direito: importImages(require.context('@/assets/camila_versao_3/b_direito', false, /\.png$/)),
+  b_esquerdo: importImages(require.context('@/assets/camila_versao_3/b_esquerdo', false, /\.png$/)),
+  blush: importImages(require.context('@/assets/camila_versao_3/blush', false, /\.png$/)),
+  objetos: importImages(require.context('@/assets/camila_versao_3/objetos', false, /\.png$/)),
+};
