@@ -33,8 +33,8 @@ export default defineComponent({
 
       // Lista de partes do avatar em ordem de desenho
       const parts = [
-        props.corpo,
         props.cabelo,
+        props.corpo,
         props.blush,
         props.olhos,
         props.boca,
@@ -66,8 +66,8 @@ export default defineComponent({
         props.boca,
         props.sobrancelhas,
         props.objetos,
-        props.b_direito,
         props.b_esquerdo,
+        props.b_direito,
       ],
       drawAvatar
     );

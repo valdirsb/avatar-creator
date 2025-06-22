@@ -67,7 +67,7 @@
 
 <script lang="ts">
 import { ref, reactive, computed, watch } from 'vue';
-import { zad, liry, camila, kim, nova_liry, nova_zad, nova_camila, liry3, zad3, camila3 } from './utils/imageLoaders';
+import { kim, nova_liry, nova_zad, nova_camila, liry3, zad3, camila3, kim3, kira } from './utils/imageLoaders';
 import AvatarOptions from "./components/AvatarOptions.vue";
 import AvatarButtons from "./components/AvatarButtons.vue";
 import AvatarCanvas from "./components/AvatarCanvas.vue";
@@ -78,19 +78,18 @@ export default {
     const avatarCanvas = ref<{ getCanvas: () => HTMLCanvasElement } | null>(null);
 
     const personagens = [
-      { nome: 'liry', label: 'Liry', data: liry },
-      { nome: 'zad', label: 'Zad', data: zad },
-      { nome: 'camila', label: 'Camila', data: camila },
+      { nome: 'nova_liry', label: 'Liry', data: nova_liry },
+      { nome: 'nova_zad', label: 'Zad', data: nova_zad },
+      { nome: 'nova_camila', label: 'Camila', data: nova_camila },
       { nome: 'kim', label: 'Kim', data: kim },
-      { nome: 'nova_liry', label: 'Nova Liry', data: nova_liry },
-      { nome: 'nova_zad', label: 'Nova Zad', data: nova_zad },
-      { nome: 'nova_camila', label: 'Nova Camila', data: nova_camila },
-      { nome: 'liry3', label: 'Liry 3', data: liry3 },
-      { nome: 'zad3', label: 'Zad 3', data: zad3 },
-      { nome: 'camila3', label: 'Camila 3', data: camila3 },
+      { nome: 'liry3', label: 'Nova Liry', data: liry3 },
+      { nome: 'zad3', label: 'Nova Zad', data: zad3 },
+      { nome: 'camila3', label: 'Nova Camila', data: camila3 },
+      { nome: 'kim3', label: 'Novo Kim', data: kim3 },
+      { nome: 'kira', label: 'Kira', data: kira },
     ];
 
-    const personagemSelecionado = ref('liry');
+    const personagemSelecionado = ref('nova_liry');
     const personagem = computed<Record<string, any>>(() =>
       personagens.find(p => p.nome === personagemSelecionado.value)?.data || {}
     );
