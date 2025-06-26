@@ -139,3 +139,14 @@ export const kira = {
   blush: importImages(require.context('@/assets/kira/blush', false, /\.png$/)),
   objetos: importImages(require.context('@/assets/kira/objetos', false, /\.png$/)),
 };
+
+export const noah = {
+  corpo: importImages(require.context('@/assets/noah/corpo', false, /\.png$/)),
+  olhos: importImages(require.context('@/assets/noah/olhos', false, /\.png$/)),
+  boca: importImages(require.context('@/assets/noah/boca', false, /\.png$/)),
+  sobrancelhas: importImages(require.context('@/assets/noah/sobrancelhas', false, /\.png$/)),
+  b_direito: importImages(require.context('@/assets/noah/b_direito', false, /\.png$/)),
+  b_esquerdo: importImages(require.context('@/assets/noah/b_esquerdo', false, /\.png$/)),
+  blush: importImages(require.context('@/assets/noah/blush', false, /\.png$/)),
+  objetos: importImages(require.context('@/assets/noah/objetos', false, /\.png$/)),
+};

@@ -67,7 +67,7 @@
 
 <script lang="ts">
 import { ref, reactive, computed, watch } from 'vue';
-import { kim, nova_liry, nova_zad, nova_camila, liry3, zad3, camila3, kim3, kira } from './utils/imageLoaders';
+import { kim, nova_liry, nova_zad, nova_camila, liry3, zad3, camila3, kim3, kira, noah } from './utils/imageLoaders';
 import AvatarOptions from "./components/AvatarOptions.vue";
 import AvatarButtons from "./components/AvatarButtons.vue";
 import AvatarCanvas from "./components/AvatarCanvas.vue";
@@ -87,6 +87,7 @@ export default {
       { nome: 'camila3', label: 'Nova Camila', data: camila3 },
       { nome: 'kim3', label: 'Novo Kim', data: kim3 },
       { nome: 'kira', label: 'Kira', data: kira },
+      { nome: 'noah', label: 'Noah', data: noah },
     ];
 
     const personagemSelecionado = ref('nova_liry');
